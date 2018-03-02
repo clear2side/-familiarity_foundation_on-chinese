@@ -97,3 +97,24 @@ table.button {
   line-height: 1.5;
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 480px) {
+  .main-text * {
+    font-size: 13px;
+  }
+  .main-title {
+    h3 {
+      font-size: 18px !important;
+    }
+    h2 {
+      font-size: 26px !important;
+    }
+  }
+  .main-btn.button table td a {
+    font-size: 18px;
+  }
+  .main-btn.button table td p {
+    font-size: 18px !important;
+  }
+
+}
